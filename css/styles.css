@@ -8,9 +8,8 @@ body{
     font-family: 'Lato', sans-serif;
 }
 .nav-bar{
-    background-color: #364f6b;
+    background-color: #311d3f;
     font-size: 2em;
-    color: #f5f5f5;
     overflow: hidden;
     list-style-type: none;
 }
@@ -27,7 +26,7 @@ body{
     text-decoration: none;
 }
 .nav-bar li:hover{
-    background-color: #fc5185;
+    background-color: #f08a5d;
 }
 
 @media screen and (max-width: 786px){
@@ -39,4 +38,37 @@ body{
     .nav-bar li:last-of-type{
         float: none;
     }
+    .hero-header h2{
+        font-size: 1em;
+    }
 }
+
+/*HERO SECTION */
+.hero-header{
+    height: 90vh;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(../img/hero.jpg);
+    background-attachment: fixed;
+}
+.hero-header h2, h3{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #f5f5f5;
+    transform: translate(-50%, -50%);
+}
+.hero-header h2{
+    top: 40%;
+    left: 50%;
+    font-size: 8em;
+    letter-spacing: 0.1em;
+    
+}
+.hero-header h3{
+    top: 50%;
+    left: 50%;
+    font-size: 3em;
+    letter-spacing: 0.15em;
+}
+
+
