@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-size: 10px;
     font-family: 'Lato', sans-serif;
@@ -64,6 +67,7 @@ body{
 
 .skills-section{
     background-color: #311d3f;
+    padding-top: 1.9em;
 }
 .skills-section h1{
     color: #f5f5f5;
@@ -119,6 +123,7 @@ body{
     font-size: 3em;
     padding: 0.3em;
     letter-spacing: 0.2em;
+    padding-top: 1em;
 }
 .project-card{
     margin-top: 1em;
@@ -180,6 +185,7 @@ body{
 
 /*section about ************************/
 .section-about{
+    padding-top: 2em;
     background-color: #311d3f;
     padding-bottom: 2em;
 }
@@ -287,12 +293,14 @@ body{
 }
 @media screen and (max-width: 600px){
     .nav-bar li{
-        float: none;
-        text-align: center;
+        float: left;
         
     }
+    .nav-bar{
+        font-size: 1.5em;
+    }
     .nav-bar li:last-of-type{
-        float: none;
+        float: right;
     }
     .hero-header h2{
         font-size: 4em;
