@@ -115,6 +115,9 @@ body{
     justify-content: space-around;
     overflow: hidden;
 }
+.section-projects{
+    padding-bottom: 1em;
+}
 
 .section-projects h1{
     color: #f08a5d;
